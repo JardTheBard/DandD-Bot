@@ -27,7 +27,7 @@ namespace NEWBOTv3
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string botToken = "Mzk4OTE0NTAyNzk3ODE5OTE5.DTFsiw.sDtSCvmQvEl6zE1AX-7jn2Fq014";
+            string botToken = "Put token here";
 
             //event subscriptions
             _client.Log += Log;
